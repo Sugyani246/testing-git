@@ -1,0 +1,57 @@
+create-profile prod  {
+"Name": "honeycomb-sugyani",
+"Services": [{
+"Name": "honeycomb-sugyani",
+"Geo": "US",
+"PublicKey": ""
+}],
+"ResourceProviders": [{
+"Name": "honeycomb-sugyani_rp",
+"Uris": {
+"US": "https://honeycomb-sugyani.nsdevrocks.net/cwc/[customer]"
+},
+"ServiceUI": {
+"Title": {
+"en": "CitrixADM Service - honeycomb-sugyani"
+},
+"Description": {
+"en": "CitrixADM Service - honeycomb-sugyani"
+},
+"ConsoleUris": {
+"US": "https://honeycomb-sugyani.nsdevrocks.net/admin_ui/mas/svc/html/main.html"
+},
+"Availability": "Normal",
+"MarketingUri": "",
+"DefaultTrialSku": "000Hhoneycomb-sugyani"
+},
+"Capability": {
+"ProvidesOfferings": "true",
+"UsesEdgeService": null,
+"UsesIdentity": null
+},
+"Products": [{
+"ProductSku": "000Hhoneycomb-sugyani",
+"DisplayName": "CitrixADM Service - honeycomb-sugyani",
+"Type": "ProductionTrial"
+},
+{
+"ProductSku": "100Hhoneycomb-sugyani",
+"DisplayName": "VIPS Entitlements CitrixADM Service - honeycomb-sugyani",
+"Type": "Production"
+},
+{
+"ProductSku": "200Hhoneycomb-sugyani",
+"DisplayName": "Storage Entitlements CitrixADM Service - honeycomb-sugyani",
+"Type": "Production"
+},
+{
+"ProductSku": "300Hhoneycomb-sugyani",
+"DisplayName": "ThirdParty Entitlements CitrixADM Service - honeycomb-sugyani",
+"Type": "Production"
+}
+],
+"UsesEntitlementQueues": true,
+"Tags": "citrixadm"
+}],
+"UsesChangeEventsTopic": true
+}
